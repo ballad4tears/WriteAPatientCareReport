@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:layout_marginRight="16dp"
+android:layout_marginLeft="16dp">
+
+<TextView
+    android:layout_marginTop="10dp"
+    android:id="@+id/title_S"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="ค้นหาข้อมูลผู้ป่วย"
+    android:textSize="28dp"
+    android:layout_marginBottom="5dp"/>
+
+
+    <Button
+        android:layout_below="@+id/title_S"
+        android:id="@+id/detailP"
+        android:textSize="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go To See infor"/>
+
+<!--<android.support.v7.widget.SearchView
+    android:layout_below="@+id/title_S"
+    android:layout_marginTop="0dp"
+    android:background="@drawable/bt_green"
+    android:id="@+id/seach"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+</android.support.v7.widget.SearchView> -->
+
+<android.support.v7.widget.RecyclerView
+    android:layout_below="@+id/detailP"
+    android:id="@+id/recylcerView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="745dp"
+    tools:layout_editor_absoluteY="-51dp" />
+
+</RelativeLayout>

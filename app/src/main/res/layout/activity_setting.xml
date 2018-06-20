@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grad_bg">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_marginTop="130dp"
+            android:id="@+id/pic_setting"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/setting_white"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:textAllCaps="true"
+            android:id="@+id/account"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/pic_setting"
+        android:background="@color/transparent"
+        android:text="Account"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:fontFamily="sans-serif-medium"/>
+
+        <Button
+            android:id="@+id/setting_ss"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_below="@+id/account"
+            android:background="@color/transparent"
+            android:text="SETTING"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:fontFamily="sans-serif-medium"/>
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_below="@+id/setting_ss"
+            android:background="@color/transparent"
+            android:text="LOG OUT"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:fontFamily="sans-serif-medium"/>
+
+    </RelativeLayout>
+
+    </RelativeLayout>
+
+

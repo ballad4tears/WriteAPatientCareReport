@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ro_cot_ta.writeapatientcarereport.Edit_3"
+    android:orientation="vertical">
+
+    <TextView
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="หน้าเลือกตรวจครั้งที่เท่าไหร่"
+        android:textSize="25dp"/>
+    <Button
+        android:id="@+id/addCase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="เพิ่มการตรวจ"
+        android:textSize="18dp"/>
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@+id/detailP"
+        android:id="@+id/recylcerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="745dp"
+        tools:layout_editor_absoluteY="-51dp" />
+
+
+</LinearLayout>

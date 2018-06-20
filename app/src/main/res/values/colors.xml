@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#19AA88</color>
+    <color name="colorPrimaryDark">#19AA88</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="primary">#23A7D8</color>
+    <color name="primaryDark">#23A7D8</color>
+    <color name="Accent">#FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="tabindicator">#0b4e3e</color>
+    <color name="transparent">#00000000</color>
+    <color name="gradientStart">#19AA88</color>
+    <color name="gradientEnd">#23A7D8</color>
+
+</resources>

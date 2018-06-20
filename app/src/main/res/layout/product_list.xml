@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+     <TextView
+         android:layout_marginTop="11dp"
+         android:layout_marginLeft="16dp"
+         android:id="@+id/Name"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="NAME"
+         android:textSize="16dp"
+         android:layout_marginBottom="5dp"/>
+
+        <TextView
+
+            android:layout_marginLeft="16dp"
+            android:layout_below="@+id/Name"
+            android:id="@+id/LastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LASTNAME"
+            android:textSize="16dp"
+            android:layout_marginBottom="5dp"/>
+        <TextView
+
+            android:layout_marginLeft="16dp"
+            android:layout_below="@+id/LastName"
+            android:id="@+id/Address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ADDRESS"
+            android:textSize="16dp"
+            android:layout_marginBottom="5dp"/>
+        <TextView
+            android:layout_marginLeft="16dp"
+            android:layout_below="@+id/Address"
+            android:id="@+id/Allergic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ALLERGIC"
+            android:textSize="16dp"
+            android:layout_marginBottom="5dp"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
